@@ -1,0 +1,108 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+main {
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 58vh;
+  width: 349px;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 0 25px 30px 0 hsl(0, 0%, 0%, 0.4);
+}
+
+.circle1 {
+  position: absolute;
+  top: 321px;
+  left: 536px;
+}
+
+.circle2 {
+  position: absolute;
+  top: -35rem;
+  left: -20rem;
+}
+
+.card {
+  position: absolute;
+  z-index: 2;
+  top: 125px;
+  right: 508px;
+  border-radius: 10px 10px 0 0;
+}
+
+.victor {
+  position: absolute;
+  top: 13rem;
+  left: 627px;
+  z-index: 2;
+  border: solid 6px white;
+  border-radius: 50%;
+}
+
+.bio {
+  text-align: center;
+  position: absolute;
+  top: 19em;
+  left: 34rem;
+  z-index: 2;
+  justify-content: space-between;
+  width: 285px;
+  text-align: center;
+}
+
+p {
+  margin: 5px auto;
+}
+
+p, span {
+  color: hsl(227, 10%, 46%);
+}
+
+.info-container {
+  display: flex;
+  position: absolute;
+  top: 26em;
+  left: 33rem;
+  z-index: 2;
+  width: 316px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.info-container ,item {
+  text-align: center;
+
+  .info-container ,span {
+    letter-spacing: 0.1em;
+  }
+.line {
+    position: relative;
+    width: 25%;
+    top: -13rem;
+    z-index: 2;
+    border-top: 0;
+  }
+.item{
+  font-weight: bold;
+}
