@@ -1,108 +1,75 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+body{
+  overflow: hidden;
+font-family: "Kumbh Sans", sans-serif !important;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-body {
-  margin: 0;
-  font-family: "Kumbh Sans", sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-main {
+.main{
   min-height: 100vh;
-  align-items: center;
-  background-color: hsl(185, 75%, 39%);
+  background: hsl(185, 75%, 39%);
   display: flex;
   justify-content: center;
+  align-items: center;
+z-index: 2;
+margin: 0;
 }
 
-.glass {
-  background: white;
+.box{
+  min-width: 24vw;
   min-height: 58vh;
-  width: 349px;
-  border-radius: 10px;
-  z-index: 2;
+  background: white;
+  z-index: 1;
   box-shadow: 0 25px 30px 0 hsl(0, 0%, 0%, 0.4);
+  border-radius: 10px;
 }
 
-.circle1 {
+.circle1{
   position: absolute;
-  top: 321px;
-  left: 536px;
+  bottom: 10rem;
+right: 41rem;
 }
 
-.circle2 {
+.circle2{
   position: absolute;
-  top: -35rem;
-  left: -20rem;
+  top: 8rem;
+    left: 18rem;
+}
+.card{
+  border-radius: 9px 9px 0 0 !important;
+  border: 0 !important;
+
+}
+.victor{
+  position: relative;
+    left: 125px;
+    bottom: 48px;
+    border-radius: 50%;
+    border: solid 3px white;
+
+}
+.info-container{
+  display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.card {
-  position: absolute;
-  z-index: 2;
-  top: 125px;
-  right: 508px;
-  border-radius: 10px 10px 0 0;
-}
-
-.victor {
-  position: absolute;
-  top: 13rem;
-  left: 627px;
-  z-index: 2;
-  border: solid 6px white;
-  border-radius: 50%;
-}
-
-.bio {
+.city, .age, p{
   text-align: center;
-  position: absolute;
-  top: 19em;
-  left: 34rem;
-  z-index: 2;
-  justify-content: space-between;
-  width: 285px;
-  text-align: center;
-}
-
-p {
-  margin: 5px auto;
-}
-
-p, span {
   color: hsl(227, 10%, 46%);
 }
 
-.info-container {
-  display: flex;
-  position: absolute;
-  top: 26em;
-  left: 33rem;
-  z-index: 2;
-  width: 316px;
-  justify-content: space-evenly;
+.bio{
   text-align: center;
+margin-top: -37px;
 }
 
-.info-container ,item {
-  text-align: center;
+.name{
+  font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
 
-  .info-container ,span {
-    letter-spacing: 0.1em;
-  }
-.line {
-    position: relative;
-    width: 25%;
-    top: -13rem;
-    z-index: 2;
-    border-top: 0;
-  }
-.item{
-  font-weight: bold;
+.flo{
+  font-weight: 800;
+  color: black;
+  font-size: 20px;
 }
