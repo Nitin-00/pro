@@ -50,6 +50,7 @@ right: 41rem;
   display: flex;
     justify-content: space-evenly;
     text-align: center;
+  margin-bottom: -16px;
 }
 
 .city, .age, p{
