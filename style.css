@@ -9,12 +9,12 @@ font-family: "Kumbh Sans", sans-serif !important;
   display: flex;
   justify-content: center;
   align-items: center;
-z-index: 2;
-margin: 0;
+  z-index: 2;
+  margin: 0;
 }
 
 .box{
-  min-width: 24vw;
+  min-width: 24vw; 
   min-height: 58vh;
   background: white;
   z-index: 1;
